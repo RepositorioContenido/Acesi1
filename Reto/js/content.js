@@ -1,0 +1,554 @@
+/**
+ * ===========================================================================
+ *  ARCHIVO GENERADO - NO EDITAR A MANO
+ * ===========================================================================
+ *  Fuente de verdad: content.json     Generador: ./generar-content.command
+ *
+ *  Para cambiar contenido (imagenes, titulos, slides, botones, links),
+ *  edita  content.json  y corré el generador.
+ * ===========================================================================
+ *
+ *  contentSha256: ab638ac4
+ *  generatedAt:   2026-10-30T01:17:30.047Z
+ */
+window.OVA_CONTENT_META = { contentSha256: "ab638ac4", generatedAt: "2026-10-30T01:17:30.054Z" };
+window.OVA_CONTENT = {
+  "courseTitle": "Indicadores y evaluación del riesgo fiscal y financiero para la sostenibilidad de las empresas sociales del Estado",
+  "unitCode": "Reto central",
+  "heroImage": "assets/1_retos_acesi.webp",
+  "heroImageAlt": "Profesionales revisando información en una tableta y documentos",
+  "branding": {
+    "pageTitle": "OVA SENA • Reto central",
+    "portadaImage": "assets/portada.jpg",
+    "logoLeft": "assets/log_foe.png",
+    "logoLeftWhite": "assets/log_foe_blanco.png",
+    "logoLeftAlt": "Formación Continua Especializada (FCE)",
+    "logoRight": "assets/Logo_acesi_color.png",
+    "logoRightWhite": "assets/Logo_acesi_blanco.png",
+    "logoRightAlt": "SENA y ACESI",
+    "popupLogoLeft": "assets/25anos.png",
+    "popupLogoLeftAlt": "Más de 25 años",
+    "popupLogoRight": "assets/Hashtag_logo.png",
+    "popupLogoRightAlt": "#FormaciónContinua",
+    "footerNotice": "Las acciones de formación ejecutadas en el marco de la convocatoria DSNFT - 0001 - FCE - 2026 son gratuitas para los trabajadores beneficiarios"
+  },
+  "resources": [
+    {
+      "id": "01",
+      "number": "01",
+      "code": "Cuentas claras, buena gestión, hospital sano",
+      "label": "Reto",
+      "typeLabel": "Reto",
+      "shortTitle": "Reto",
+      "twoLineTitle": "Reto",
+      "icon": "assets/icons/reto_1.png",
+      "modalImage": "assets/modal_reto.jpg",
+      "modalImageAlt": "Gerente hospitalario revisando indicadores en una tableta",
+      "hideModalSubtitle": true,
+      "slides": [
+        {
+          "id": "reto-slide-1",
+          "type": "text",
+          "tabTitle": "Objetivo del reto",
+          "tabNum": "01",
+          "title": "Objetivo del reto",
+          "icon": "assets/icons/reto.png",
+          "paragraph": null,
+          "paragraphs": [
+            "Analizar la condición financiera y fiscal de la Empresa Social del Estado (ESE) Hospital San Eustaquio, utilizando el marco normativo, la metodología oficial de categorización, los indicadores operativos, presupuestales y financieros y las herramientas de monitoreo expuestos en el curso. Esto con el fin de prever su categoría de riesgo financiero y fiscal y planear acciones que protejan su sostenibilidad institucional."
+          ]
+        },
+        {
+          "id": "reto-slide-2",
+          "type": "flipcard",
+          "tabTitle": "Competencias a trabajar",
+          "tabNum": "02",
+          "title": "Competencias a trabajar",
+          "icon": "assets/competencias.png",
+          "paragraph": null,
+          "instruction": "Haga clic en cada tarjeta para conocer la competencia de la unidad.",
+          "cards": [
+            {
+              "num": "01",
+              "frontTitle": "Unidad 1",
+              "icon": "assets/unidad1.png",
+              "backBadge": "COMPETENCIA",
+              "backTitle": "Unidad 1",
+              "backDesc": "Interpretar el marco normativo vigente y los fundamentos técnicos que sustentan la evaluación del riesgo fiscal y financiero en las Empresas Sociales del Estado (ESE), para apoyar la toma de decisiones basada en evidencia y fortalecer la gestión institucional y la sostenibilidad financiera."
+            },
+            {
+              "num": "02",
+              "frontTitle": "Unidad 2",
+              "icon": "assets/unidad2.png",
+              "backBadge": "COMPETENCIA",
+              "backTitle": "Unidad 2",
+              "backDesc": "Analizar los indicadores financieros, presupuestales y operativos utilizados en la evaluación del riesgo fiscal y financiero de las Empresas Sociales del Estado (ESE), aplicando criterios técnicos, metodologías oficiales y herramientas de análisis institucional para identificar oportunamente factores de riesgo que afecten la sostenibilidad institucional y apoyar la toma de decisiones basada en evidencia."
+            },
+            {
+              "num": "03",
+              "frontTitle": "Unidad 3",
+              "icon": "assets/unidad3.png",
+              "backBadge": "COMPETENCIA",
+              "backTitle": "Unidad 3",
+              "backDesc": "Formular acciones de monitoreo, seguimiento y mejoramiento institucional, con base en el análisis de los indicadores utilizados en la evaluación del riesgo fiscal y financiero de las Empresas Sociales del Estado (ESE), para fortalecer la sostenibilidad institucional, la capacidad de gestión y el cumplimiento de la normatividad vigente."
+            }
+          ],
+          "iconAboveTitle": true
+        },
+        {
+          "id": "reto-slide-3",
+          "type": "text",
+          "tabTitle": "Situación problema",
+          "tabNum": "03",
+          "title": "Descripción de la situación problema, caso o análisis de proceso",
+          "icon": "assets/descripcion.png",
+          "paragraph": null,
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "<strong>Contexto general (se presenta al inicio del curso)</strong>"
+            },
+            {
+              "type": "paragraph",
+              "text": "La ESE Hospital San Eustaquio es un establecimiento de salud con una complejidad baja (nivel I), situado en un pequeño municipio de la zona andina y a dos horas de distancia de la capital del departamento. Posee una sede principal, en la que se brindan los servicios de urgencias, consulta externa, hospitalización básica y atención de partos; además, cuenta con tres centros de salud rurales. La mayor parte de los aproximadamente 25.000 habitantes está afiliada al régimen subsidiado. No cumple las condiciones específicas del mercado que establece la metodología de categorización."
+            },
+            {
+              "type": "paragraph",
+              "text": "En la más reciente categorización de riesgo financiero y fiscal que emitió el Ministerio de Salud y Protección Social (MSPS), el hospital fue clasificado como \"sin riesgo\". La noticia fue recibida con calma y durante el transcurso del año nadie volvió a tocar el asunto."
+            },
+            {
+              "type": "paragraph",
+              "text": "La vigencia acaba de terminar y aún faltan dos meses para que la información anual esté consolidada en el Sistema de Información Hospitalaria (SIHO). La gerente convoca a su equipo para elaborar el informe anual para la Junta Directiva y comienzan a surgir señales de advertencia que nadie había notado."
+            },
+            {
+              "type": "accordion",
+              "firstOpen": false,
+              "items": [
+                {
+                  "title": "Roles",
+                  "content": "• <strong>Dra. Laura Méndez</strong>, gerente desde hace un año. Debe responder ante la Junta Directiva y tomar las decisiones.<br>• <strong>Carlos Ríos</strong>, subgerente administrativo y financiero. Responsable del presupuesto, la contabilidad, la tesorería, el talento humano, los aspectos logísticos y los reportes al SIHO.<br>• <strong>Andrea Torres</strong>, líder de facturación y cartera. Conoce de primera mano las glosas, la radicación y el cobro a las Entidades Promotoras de Salud (EPS).<br>• <strong>Martha Gómez</strong>, subgerente científica. Responde por la atención asistencial y por el registro de las actividades asistenciales ante las EPS y otras entidades administradoras de planes de beneficio (EAPB).<br>• <strong>Junta Directiva</strong>, presidida por el alcalde. Aprueba y evalúa el plan de gestión de la gerente.<br>• <strong>Secretaría Municipal de Salud</strong>. Valida la información que la ESE reporta al SIHO antes de su revisión por la secretaría departamental.<br>• <strong>Secretaría Departamental de Salud</strong>. Valida la información que la ESE reporta antes de su envío al Ministerio de Salud y Protección Social."
+                }
+              ]
+            },
+            {
+              "type": "highlight",
+              "lead": "Pregunta del reto:",
+              "text": "«¿En qué categoría de riesgo vamos a quedar y qué podemos hacer, ahora y durante el próximo año, para proteger la sostenibilidad del hospital?»."
+            },
+            {
+              "type": "accordion",
+              "firstOpen": false,
+              "items": [
+                {
+                  "title": "Momento 1 – Unidad 1: las reglas con las que será evaluado el hospital",
+                  "content": "La ESE recibió de vuelta uno de sus informes trimestrales al SIHO por parte de la secretaría departamental de salud, para corregir inconsistencias en las cifras de cartera. El tiempo avanza. Nadie en el equipo tiene certeza de qué normativa exige que el hospital sea clasificado, ni tampoco de lo que ocurre si se encuentra en un riesgo medio o alto. Carlos, tras corregir el informe, calcula la categoría sumando lo facturado y el total de la cartera (100%) y determina que hay superávit. Andrea señala que la cartera de más de 360 días se amplió, particularmente en el caso de una EPS con problemas económicos, y que durante el año se asumieron gastos basándose en ingresos que no se obtuvieron.<br><br>Cifras del SIHO a 31 de diciembre (millones de pesos): ingresos corrientes recaudados $8.000; cartera radicada menor a 90 días $1.000, de 90 a 360 días $600 y mayor a 360 días $400; gastos corrientes comprometidos $9.300; pasivos con más de un año $1.000; ingresos reconocidos $9.000.<br><br><strong>Resultado:</strong> índice de riesgo de −0,10 (riesgo bajo); pero como los gastos comprometidos ($9.300) superan los ingresos reconocidos ($9.000), el criterio de déficit presupuestal lleva a la ESE a <strong>riesgo alto</strong>, con la obligación de adoptar un Programa de Saneamiento Fiscal y Financiero (PSFF). Si el reporte no se hubiera corregido a tiempo, la categoría también sería riesgo alto."
+                },
+                {
+                  "title": "Momento 2 – Unidad 2: lo que dicen los indicadores",
+                  "content": "La gerente solicita al equipo que comprenda las causas, teniendo en cuenta el resultado del cálculo —el hospital estaría en alto riesgo—. Al compilar la información del año, se observan los siguientes datos: la facturación aumentó 10 % en comparación con el año anterior, pero las glosas iniciales subieron del 8 % al 15 % del valor radicado; cerca de $400 millones de servicios prestados no fueron facturados al final del periodo; la cartera con más de 360 días se multiplicó por 2,7 y el tiempo para pagar a los proveedores pasó de 100 a 142 días, uno de ellos está considerando detener el despacho de medicamentos; finalmente, aunque el hospital gastó 12 % adicional en personal, ofreció 6 % menos de servicios, evaluados en Unidades de Valor Relativo (UVR). Carlos afirma que el problema es \"financiero\"; Andrea, que es \"de procesos\"; y Martha respalda a su equipo: \"Los médicos están trabajando más que nunca; la dificultad radica en lo administrativo\".<br><br><strong>Resultado:</strong> leídos en cadena (cartilla, unidad 2, tabla 29), los indicadores muestran que los tres tienen parte de razón: el problema se ve en los recursos, pero nace en los procesos. El recaudo cayó 3,6 % aunque la facturación creció 10 %, por glosas que casi se duplicaron, una radicación más lenta (de 25 a 45 días) y $400 millones sin facturar; la cartera mayor a 360 días pasó de $150 a $400 millones; los compromisos crecieron 9,4 % sin respaldo de recaudo (equilibrio con reconocimiento de 0,97 y con recaudo de 0,86), lo que generó deudas con los proveedores y $300 millones vencidos con el personal; y la evolución del gasto por UVR fue de 1,16, porque se contrataron más horas médicas (de 11.000 a 12.000) y se atendieron menos consultas (de 33.000 a 30.000). Cada hallazgo se relaciona con una variable del índice: ingresos recaudados, cartera reconocida, gastos comprometidos y pasivos."
+                },
+                {
+                  "title": "Momento 3 – Unidad 3: anticipar y decidir",
+                  "content": "La gerente ya está al tanto de que la ESE quedará en riesgo alto y comprende las razones. Al repasar la administración del año, se percata de que cada área manejaba su propio archivo y que las cifras de facturación, cartera, tesorería y presupuesto no concordaban siempre; los informes trimestrales se mandaron al SIHO para cumplir con el plazo establecido, pero dentro del hospital nadie los examinó y la Junta Directiva no recibió ninguna advertencia durante el año. La gerencia y las áreas sugieren nueve medidas, que parecen ser todas urgentes. La gerente cuenta con dos semanas para exponer a la Junta un informe acerca de la situación y una propuesta de acción<br><br><strong>Resultado:</strong> 1) Con los datos trimestrales y los límites del tablero de control (cartilla, unidad 3, tabla 36), reconocer que cuatro indicadores llegaron a estar en rojo y cinco en amarillo al finalizar el segundo trimestre: esta situación ya pudo haberse detectado con seis meses de anticipación. 2) Clasificar las acciones de acuerdo con su urgencia y el impacto que tienen en el riesgo, y revisarlas en función de su viabilidad y sus repercusiones en los servicios: se deben realizar ya los compromisos condicionados al recaudo, la conciliación con la EPS, la facturación diaria, el cierre diario de la facturación y los acuerdos con los proveedores; aunque no parece urgente el tablero de control, es fundamental para el plan; la reestructuración de las agendas se restringe a las consultas externas para resguardar partos y urgencias. 3) Crear un plan de mejora que incluya responsables, objetivos trimestrales, plazos e indicadores de seguimiento (cartilla, unidad 3, tabla 46). Este se revisará mensualmente por el comité directivo y trimestralmente por la Junta. El plan de mejora debe seguir las líneas de defensa del MIPG y estar articulado con el PSFF. <strong>Desenlace</strong>: La Junta da su aprobación al plan, solicita que las medidas sean integradas al PSFF con la asistencia de la secretaría de salud departamental y finaliza la gerente: \"La categoría no se espera; se lleva a cabo durante el año entero\"."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "number": "02",
+      "code": "Pretest",
+      "label": "Reto Central",
+      "typeLabel": "Pretest",
+      "shortTitle": "Pretest",
+      "twoLineTitle": "Pretest",
+      "icon": "assets/icons/Pretest.png",
+      "modalImage": "assets/modal_pretest.jpg",
+      "modalImageAlt": "Médica con bata blanca y tableta en un consultorio",
+      "hideModalSubtitle": true,
+      "slides": [
+        {
+          "id": "pretest-slide-actividad",
+          "type": "text",
+          "tabTitle": "Actividad",
+          "tabNum": "01",
+          "hideHeader": true,
+          "title": null,
+          "paragraphs": [
+            "¡Es momento de evaluar sus conocimientos!",
+            "Dé clic en el botón y conozca su punto de partida."
+          ],
+          "actionUrl": "https://lms.eduvirtualacesi.com/mod/quiz/view.php?id=19",
+          "actionText": "Comenzar evaluación",
+          "variant": "cta-hero",
+          "heroIcon": "assets/icons/Pretest.png"
+        }
+      ]
+    }
+  ],
+  "credits": {
+    "title": "Créditos",
+    "iconSrc": "assets/Creditos.png",
+    "supportImageSrc": "assets/credits-team-support.jpg",
+    "supportImageAlt": "Equipo de desarrollo y diseño pedagógico",
+    "heading": "Grupo de trabajo",
+    "institution": {
+      "entities": [
+        "Ministerio del Trabajo y Seguridad Social",
+        "Servicio Nacional de Aprendizaje (SENA)",
+        "Asociación Colombiana de Empresas Sociales del Estado y Hospitales Públicos (ACESI)"
+      ],
+      "details": [
+        {
+          "role": "Primera edición:",
+          "names": "octubre/2026"
+        }
+      ]
+    },
+    "coordination": "Coordinación general: Fundación Visión Salud",
+    "subordination": "",
+    "sections": [
+      {
+        "role": "Equipo Técnico Fundación Visión Salud:",
+        "names": "Paola Rueda Casallas"
+      },
+      {
+        "role": "Asesoría y diseño pedagógico:",
+        "names": "Alba Lucía Núñez G. - Samir Balanta Perea"
+      },
+      {
+        "role": "Adecuación y corrección de estilo:",
+        "names": "José Gabriel Ortiz Abella"
+      },
+      {
+        "role": "Ilustraciones y diseño digital:",
+        "names": "Liam Pamela Hermida García - William Gonzáles"
+      },
+      {
+        "role": "Diagramación:",
+        "names": "John Carlos Jiménez Díaz"
+      },
+      {
+        "role": "Realización audiovisual:",
+        "names": "Oscar Javier Rojas Pulido"
+      },
+      {
+        "role": "Director de virtualización y plataforma educativa:",
+        "names": "Julián Andrés Mora Gómez"
+      },
+      {
+        "role": "Derechos de autor y licencias:",
+        "names": "SENA"
+      }
+    ],
+    "legalNotice": "Las acciones de formación ejecutadas en el marco de la convocatoria DSNFT - 0001 - FCE - 2026 son gratuitas para los trabajadores beneficiarios"
+  },
+  "bibliography": {
+    "title": "Bibliografía",
+    "iconSrc": "assets/bibliografia.png",
+    "supportImageSrc": "assets/library-support.jpg",
+    "supportImageAlt": "Biblioteca académica y centro de documentación",
+    "heading": "Bibliografía",
+    "description": "Fuentes documentales, lecturas y recursos recomendados para la fundamentación conceptual del curso:",
+    "linkText": "Consultar recurso fuente",
+    "entries": [
+      {
+        "text": "Arboleda Posada, G. I., García Arango, D. A. & Henao Villa, C. F. (2019). <em>Empresas sociales del Estado en Colombia: análisis exploratorio de indicadores económicos para los años 2010-2015. Administración & Desarrollo, 49(1)</em>.",
+        "url": "https://doi.org/10.22431/25005227.vol49n1.2"
+      },
+      {
+        "text": "Betancourt, O., Mertens, F., & Parra, M. (2016). <em>Enfoques ecosistémicos en salud y ambiente.</em> Ediciones Abya-Yala. libro-de-la-copeh-lac-parte-1.pdf"
+      },
+      {
+        "text": "Ceballo, M. (2025). <em>¿Qué es la Gestión Ambiental y por qué estudiarla?</em>",
+        "url": "https://www.areandina.edu.co/blogs/en-infografia-que-es-la-gestion-ambiental"
+      },
+      {
+        "text": "Congreso de la República de Colombia. (1993). <em>Ley 99 de 1993. Por la cual se crea el Ministerio del Ambiente, se reordena el Sector Público encargado de la gestión y la conservación del medio ambiente y los recursos naturales renovables, se organiza el Sistema Nacional Ambiental, SINA, y se dictan otras disposiciones.</em>",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=297"
+      },
+      {
+        "text": "Congreso de la República de Colombia. (1993). <em>Ley 100 de 1993. Por la cual se crea el sistema de seguridad social integral y se dictan otras disposiciones</em>.",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=5248"
+      },
+      {
+        "text": "Congreso de la República de Colombia. (2007). <em>Ley 1122 de 2007. Por la cual se hacen algunas modificaciones en el Sistema General de Seguridad Social en Salud y se dictan otras disposiciones</em>.",
+        "url": "https://normativa.colpensiones.gov.co/compilacion/docs/ley_1122_2007.htm"
+      },
+      {
+        "text": "Congreso de la República de Colombia. (2011a). <em>Acto Legislativo 03 de 2011. Por el cual se establece el principio de la sostenibilidad fiscal</em>.",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=43214"
+      },
+      {
+        "text": "Congreso de la República de Colombia. (2011b). <em>Ley 1438 de 2011. Por medio de la cual se reforma el Sistema General de Seguridad Social en Salud y se dictan otras disposiciones</em>.",
+        "url": "https://relatoria.colombiacompra.gov.co/normativa/ley-1438-de-2011/"
+      },
+      {
+        "text": "Congreso de la República de Colombia. (2013). <em>Ley 1608 de 2013. Por medio de la cual se adoptan medidas para mejorar la liquidez y el uso de algunos recursos del Sector Salud y se dictan otras disposiciones</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/ley_1608_2013.htm"
+      },
+      {
+        "text": "Congreso de la República de Colombia. (2015). <em>Ley 1751 de 2015. Por medio de la cual se regula el derecho fundamental a la salud y se dictan otras disposiciones</em>.",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=60733"
+      },
+      {
+        "text": "Congreso de la República de Colombia. (2019a). <em>Ley 1955 de 2019. Por el cual se expide el Plan Nacional de Desarrollo 2018-2022 «Pacto por Colombia, Pacto por la Equidad»</em>.",
+        "url": "https://funcionpublica.gov.co/eva/gestornormativo/norma.php?i=93970"
+      },
+      {
+        "text": "Congreso de la República de Colombia. (2019b). <em>Ley 1966 de 2019. Por medio de la cual se adoptan medidas para la gestión y transparencia en el Sistema de Seguridad Social en Salud y se dictan otras disposiciones</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/ley_1966_2019.htm"
+      },
+      {
+        "text": "Constitución Política de Colombia [Const.]. (1991). <em>Constitución Política de Colombia</em>. Gaceta Constitucional No. 116 de 20 de julio de 1991.",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4125"
+      },
+      {
+        "text": "Contaduría General de la Nación. (2014). <em>Resolución 414 de 2014. Por la cual se incorpora, en el Régimen de Contabilidad Pública, el marco normativo aplicable para algunas empresas sujetas a su ámbito</em>.",
+        "url": "https://normativa.colpensiones.gov.co/colpens/docs/resolucion_contaduria_0414_2014.htm"
+      },
+      {
+        "text": "Corte Constitucional. (2016). <em>Sentencia T-622-16.</em>",
+        "url": "https://atrato.minambiente.gov.co/index.php/la-sentencia/"
+      },
+      {
+        "text": "Corte Constitucional de Colombia. (2012). <em>Sentencia C-288 de 2012</em> (M. P. Luis Ernesto Vargas Silva).",
+        "url": "https://www.ambitojuridico.com/sites/default/files/BancoMedios/Archivos/c-0288-12.doc"
+      },
+      {
+        "text": "Departamento Administrativo de la Función Pública. (2022). <em>Guía para la administración del riesgo y el diseño de controles en entidades públicas</em> (versión 6).",
+        "url": "https://www1.funcionpublica.gov.co/documents/28587410/34299967/Guia_administracion_riesgos_capitulo_riesgo_fiscal.pdf"
+      },
+      {
+        "text": "Departamento Administrativo Nacional de Estadística. (s. f.). <em>Densidad de la población en Colombia</em>. Atlas estadístico, Tomo I Demográfico.",
+        "url": "https://geoportal.dane.gov.co/servicios/atlas-estadistico/src/Tomo_I_Demografico/2.2.3.-densidad-de-la-poblaci%C3%B3n-en-colombia.html"
+      },
+      {
+        "text": "ECOR. (2024, noviembre 22). <em>¿Qué son insumos hospitalarios?</em> ECOR.",
+        "url": "https://ecor.com.co/que-son-insumos-hospitalarios/"
+      },
+      {
+        "text": "Guzmán-Finol, K. & Ayala-García, J. (2024). <em>Cartera hospitalaria y diferencias regionales en la prestación de los servicios de salud en Colombia</em> (Documentos de Trabajo sobre Economía Regional y Urbana No. 328). Banco de la República.",
+        "url": "https://repositorio.banrep.gov.co/bitstreams/5c35c62f-2418-468a-9c93-db8fb17394f3/download"
+      },
+      {
+        "text": "McGrath, T. (2025). <em>Environmental Sustainability in Nursing | Greener Healthcare. Nevada State University.</em>",
+        "url": "https://nevadastate.edu/son/rn-bsn/environmental-sustainability-in-nursing-bsns-role-in-greener-healthcare/"
+      },
+      {
+        "text": "Mesa Cuadrado, G. (2018). <em>Una idea de justicia ambienta</em>l.",
+        "url": "https://portaldelibros.unal.edu.co/gpd-una-idea-de-justicia-ambiental-elementos-de-conceptualizaciy-n-y-fundamentaciy-n-9789587834147-667e350e221aa.html"
+      },
+      {
+        "text": "Ministerio de Ambiente y Desarrollo Sostenible. (2019). <em>Resolución 2184 de 2019. \"Por la cual se modifica la resolución 668 de 2016 sobre uso racional de bolsas plásticas y se adoptan otras disposiciones\"</em>.",
+        "url": "https://www.minambiente.gov.co/wp-content/uploads/2021/08/resolucion-2184-de-2019.pdf"
+      },
+      {
+        "text": "Ministerio de Ambiente y Desarrollo Sostenible. (2020). <em>Resolución 1344 de 2020. Por la cual se adiciona un parágrafo al artículo 4 de la Resolución 2184 de 2019 y se dictan otras disposiciones.</em>",
+        "url": "https://www.minambiente.gov.co/wp-content/uploads/2021/08/resolucion-1344-de-2020.pdf"
+      },
+      {
+        "text": "Ministerio de Ambiente y Desarrollo Sostenible. (2026). <em>Política Nacional del Agua 2026–2050.</em>",
+        "url": "https://www.minambiente.gov.co/consulta/politica-nacional-del-agua-2026-2050/"
+      },
+      {
+        "text": "Ministerio de Ambiente y Desarrollo Sostenible. (s. f.). <em>Salud Ambiental.</em>",
+        "url": "https://www.minambiente.gov.co/asuntos-ambientales-sectorial-y-urbana/salud-ambiental/"
+      },
+      {
+        "text": "Ministerio de Hacienda & Crédito Público. (2019). <em>Resolución 3832 de 2019. Por la cual se expide el Catálogo de Clasificación Presupuestal para Entidades Territoriales y sus Descentralizadas</em>.",
+        "url": "https://www.ambitojuridico.com/sites/default/files/BancoMedios/Archivos/res-3832-19%28minhacienda%29.pdf"
+      },
+      {
+        "text": "Ministerio de Hacienda y Crédito Público. (s. f.). <em>Monitoreo y seguimiento de las Empresas Sociales del Estado (ESE)</em>. Dirección General de Apoyo Fiscal.",
+        "url": "https://www.minhacienda.gov.co/apoyo-fiscal-territorial/monitoreo-evaluacion-gasto-social/empresas-sociales-estado/monitoreo"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social & Ministerio de Ambiente y Desarrollo Sostenible. (2024). <em>Resolución 591 de 2024. Por la cual se adopta el Manual para la Gestión Integral de Residuos Generados en la Atención en Salud y Otras Actividades.</em>",
+        "url": "https://www.minsalud.gov.co/Normatividad_Nuevo/Resoluci%C3%B3n%20No%20591%20de%202024.pdf"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2012a). <em>Resolución 2509 de 2012. Por medio de la cual se define la metodología para la categorización del riesgo de las Empresas Sociales del Estado del nivel territorial y se efectúa la categorización del riesgo para la vigencia 2012</em>.",
+        "url": "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/Resolucion-2509-de-2012.PDF"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2012b). <em>Resolución 3467 de 2012. Por la cual se adopta el Manual de Condiciones para el diseño y adopción de los Programas de Saneamiento Fiscal y Financiero de las Empresas Sociales del Estado del nivel territorial</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/resolucion_minsaludps_3467_2012.htm"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2012c). <em>Resolución 710 de 2012. Por medio de la cual se adoptan las condiciones y metodología para la elaboración y presentación del plan de gestión por parte de los gerentes o directores de las Empresas Sociales del Estado del orden territorial y su evaluación por parte de la Junta Directiva</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/resolucion_minsaludps_0710_2012.htm"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2013a). <em>Resolución 1877 de 2013. Por medio de la cual se efectúa la categorización del riesgo de las Empresas Sociales del Estado del nivel territorial para la vigencia 2013</em>.",
+        "url": "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-1877-de-2013.pdf"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2013b). <em>Resolución 743 de 2013. Por la cual se modifica la Resolución 710 de 2012</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/resolucion_minsaludps_0743_2013.htm"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2014). <em>Resolución 2090 de 2014. Por la cual se efectúa la categorización del riesgo de las Empresas Sociales del Estado del nivel territorial para la vigencia 2014 y se dictan otras disposiciones</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/resolucion_minsaludps_2090_2014.htm"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2015). <em>Resolución 1893 de 2015. Por la cual se efectúa la categorización del riesgo de las Empresas Sociales del Estado del nivel territorial para la vigencia 2015</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/resolucion_minsaludps_1893_2015.htm"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2016). <em>Resolución 2184 de 2016. Por la cual se efectúa la categorización del riesgo de las Empresas Sociales del Estado del nivel territorial para la vigencia 2016 y se dictan otras disposiciones</em>.",
+        "url": "https://www.minsalud.gov.co/Normatividad_Nuevo/Resoluci%C3%B3n%202184%20de%202016.pdf"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2017). <em>Resolución 1755 de 2017. Por medio de la cual se efectúa la categorización del riesgo de las Empresas Sociales del Estado del nivel territorial para la vigencia 2017 y se dictan otras disposiciones</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/resolucion_minsaludps_1755_2017.htm"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2018a). <em>Resolución 2249 de 2018. Por la cual se efectúa la categorización del riesgo de las Empresas Sociales del Estado del nivel territorial para la vigencia 2018 y se dictan otras disposiciones</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/resolucion_minsaludps_2249_2018.htm"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2018b). <em>Resolución 408 de 2018. Por la cual se modifica la Resolución 710 de 2012, modificada por la Resolución 743 de 2013</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/resolucion_minsaludps_0408_2018.htm"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2019). <em>Resolución 1342 de 2019. Por la cual se efectúa la categorización del riesgo de las Empresas Sociales del Estado del nivel territorial para la vigencia 2019</em>.",
+        "url": "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-1342-de-2019.pdf"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2020). <em>Resolución 856 de 2020. Por medio de la cual se suspenden términos administrativos y jurisdiccionales en sede administrativa como consecuencia de la emergencia sanitaria por el COVID-19</em>.",
+        "url": "https://cancilleria.gov.co/sites/default/files/Normograma/docs/resolucion_minsaludps_0856_2020.htm"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2023a). <em>Resolución 2284 de 2023. Por la cual se definen los soportes de cobro y se adopta el Manual Único de Devoluciones, Glosas y Respuestas</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/resolucion_minsaludps_2284_2023.htm"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2023b). <em>Resolución 851 de 2023. Por la cual se efectúa la categorización del riesgo de las Empresas Sociales del Estado del nivel territorial para la vigencia 2023</em>.",
+        "url": "https://www.minsalud.gov.co/Normatividad_Nuevo/Resoluci%C3%B3n%20No.%20851%20de%202023.pdf"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2024a). <em>Resolución 1885 de 2024. Por la cual se modifican el artículo 12 y el Anexo Técnico 1 de la Resolución 2284 de 2023</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/resolucion_minsaludps_1885_2024.htm"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2024b). <em>Resolución 980 de 2024. Por la cual se efectúa la categorización del riesgo de las Empresas Sociales del Estado del nivel territorial para la vigencia 2024 y se dictan otras disposiciones</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/resolucion_minsaludps_0980_2024.htm"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2025). <em>Resolución 1122 de 2025. Por la cual se efectúa la categorización del riesgo de las Empresas Sociales del Estado del nivel territorial para la vigencia 2025 y se dictan otras disposiciones</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/resolucion_minsaludps_1122_2025.htm"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2026). <em>Resolución 1020 de 2026. Por la cual se efectúa la categorización del riesgo de las Empresas Sociales del Estado del nivel territorial para la vigencia 2026 y se dictan otras disposiciones</em>.",
+        "url": "https://sidn.ramajudicial.gov.co/SIDN/NORMATIVA/TEXTOS_COMPLETOS/8_RESOLUCIONES/RESOLUCIONES%202026/MSPS%20Resolucion%20001020%20de%202026.pdf"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social, Sistema de Gestión Ambiental. (2025). <em>Programa de ahorro y uso eficiente del agua.</em>",
+        "url": "https://minsalud.gov.co/Ministerio/Institucional/Procesos%20y%20procedimientos/ABIS04.pdf"
+      },
+      {
+        "text": "Ministerio de Sanidad. (s. f.). <em>Huella de carbono sanitaria.</em>",
+        "url": "https://www.sanidad.gob.es/areas/sanidadAmbiental/riesgosAmbientales/saludCC/huelladeCarbono/home.htm"
+      },
+      {
+        "text": "Organización Mundial de la Salud. (2023). <em>La electricidad en los establecimientos de salud.</em>",
+        "url": "https://www.who.int/es/news-room/fact-sheets/detail/electricity-in-health-care-facilities"
+      },
+      {
+        "text": "Pixeon. (2025). <em>Sostenibilidad en salud: 6 formas de aplicarla en la práctica.</em>",
+        "url": "https://www.pixeon.com/es/blog/sostenibilidad-en-salud-6-formas-de-aplicarla/"
+      },
+      {
+        "text": "Presidencia de la República de Colombia. (2015). <em>Decreto 1076 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector Ambiente y Desarrollo Sostenible.</em>",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=78153"
+      },
+      {
+        "text": "Presidencia de la República de Colombia. (2016). <em>Decreto 780 de 2016. Por medio del cual se expide el Decreto Único Reglamentario del Sector Salud y Protección Social.</em>",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=77813"
+      },
+      {
+        "text": "Presidencia de la República. (1994). <em>Decreto 1876 de 1994. Por el cual se reglamentan los artículos 96, 97 y 98 del Decreto Ley 1298 de 1994 en lo relacionado con las Empresas Sociales del Estado</em>.",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=3356"
+      },
+      {
+        "text": "Presidencia de la República. (1996). <em>Decreto 111 de 1996. Por el cual se compilan la Ley 38 de 1989, la Ley 179 de 1994 y la Ley 225 de 1995 que conforman el Estatuto Orgánico del Presupuesto</em>.",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=5306"
+      },
+      {
+        "text": "Presidencia de la República. (2004). <em>Decreto 2193 de 2004. Por el cual se reglamentan parcialmente los artículos 42 de la Ley 715 de 2001 y 17 de la Ley 812 de 2003</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/decreto_2193_2004.htm"
+      },
+      {
+        "text": "Presidencia de la República. (2015a). <em>Decreto 1068 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector Hacienda y Crédito Público</em>.",
+        "url": "https://normativa.colpensiones.gov.co/colpens/docs/decreto_1068_2015.htm"
+      },
+      {
+        "text": "Presidencia de la República. (2015b). <em>Decreto 1083 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector de Función Pública</em>.",
+        "url": "https://www.funcionpublica.gov.co/documents/34645357/34703621/Decreto_1083_de_2015.pdf/b0a30401-2cbc-3bc3-e48d-bdcbb1dbc3f3"
+      },
+      {
+        "text": "Presidencia de la República. (2017a). <em>Decreto 1499 de 2017. Por medio del cual se modifica el Decreto 1083 de 2015, Decreto Único Reglamentario del Sector Función Pública, en lo relacionado con el Sistema de Gestión establecido en el artículo 133 de la Ley 1753 de 2015</em>.",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=83433"
+      },
+      {
+        "text": "Presidencia de la República. (2017b). <em>Decreto 648 de 2017. Por el cual se modifica y adiciona el Decreto 1083 de 2015, Reglamentario Único del Sector de la Función Pública</em>.",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80915"
+      },
+      {
+        "text": "Presidencia de la República. (2020). <em>Decreto 58 de 2020. Por el cual se sustituye el Título 5 de la Parte 6 del Libro 2 del Decreto 1068 de 2015, Único Reglamentario del Sector Hacienda y Crédito Público</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/decreto_0058_2020.htm"
+      },
+      {
+        "text": "Presidencia de la República. (2024). <em>Decreto 460 de 2024. Por el cual se modifica el Decreto 1068 de 2015 en lo relacionado con la administración de los recursos de los Programas de Saneamiento Fiscal y Financiero de las Empresas Sociales del Estado</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/decreto_0460_2024.htm"
+      },
+      {
+        "text": "Salud sin Daño. (2026). <em>Sostenibilidad en el sector salud.</em>",
+        "url": "https://lac.saludsindanio.org/sostenibilidad"
+      },
+      {
+        "text": "Salud sin Daño. (2019). <em>Huella climática del sector salud. Cómo contribuye el sector salud a la crisis climática global: Oportunidades para la acción</em>.",
+        "url": "https://lac.saludsindanio.org/cambio-climatico-y-salud/huella-climatica-del-sector-salud"
+      },
+      {
+        "text": "Superintendencia Nacional de Salud. (2023). <em>Concepto 1439371 de 2023</em> [Composición de las juntas directivas de las Empresas Sociales del Estado].",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/concepto_supersalud_1439371_2023.htm"
+      },
+      {
+        "text": "United Nations. (s. f.). Sustainability.",
+        "url": "https://www.un.org/en/academic-impact/sustainability"
+      }
+    ]
+  },
+  "features": {
+    "creditsPopup": {
+      "enabled": true,
+      "button": "btnDockCredits"
+    },
+    "bibliographyPopup": {
+      "enabled": true,
+      "button": "btnDockBibliography",
+      "showLinks": true
+    },
+    "portadaScroll": {
+      "enabled": true,
+      "button": "btnPortadaScroll"
+    },
+    "enterCarousel": {
+      "enabled": true,
+      "button": "btnEnterCarrusel"
+    },
+    "modalClose": {
+      "enabled": true,
+      "button": "btnModalClose"
+    },
+    "popupClose": {
+      "enabled": true,
+      "button": "btnAmieClose"
+    }
+  }
+};
