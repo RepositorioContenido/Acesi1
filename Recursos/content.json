@@ -1,0 +1,854 @@
+/**
+ * ============================================================================
+ *  OVA SENA - Recursos de apoyo  ·  ARCHIVO DE CONTENIDO EDITABLE
+ * ============================================================================
+ *
+ *  Todo el contenido del OVA se cambia aquí: textos, enlaces, logos,
+ *  créditos y bibliografía. El código no se toca.
+ *
+ *  CÓMO SE APLICA
+ *    1. Guarde este archivo.
+ *    2. Doble clic en  generar-content.command  (valida y genera js/content.js).
+ *    3. Recargue index.html  (Cmd+Shift+R).
+ *  Si hay un error, el generador lo explica y NO cambia nada.
+ *
+ *  SECCIONES
+ *    courseTitle, unitCode ... título del curso y etiqueta ("Recursos de apoyo")
+ *    branding ................ logos, fondo de la portada, pie de página y
+ *                              título de la pestaña del navegador
+ *    recursos ................ la cuadrícula de recursos:
+ *        units ............... las unidades del menú superior (id, label, title)
+ *        types ............... los tipos de recurso del menú superior
+ *                              (anexos, complementario, glosario, bibliografia)
+ *        buttons ............. texto del botón según el formato del enlace
+ *        items ............... una tarjeta por recurso. Campos:
+ *            id ......... único (r01, r02...)
+ *            unit ....... id de la unidad ("u1", "u2", "u3"...)
+ *            type ....... id del tipo ("anexos", "complementario"...)
+ *            title ...... título de la tarjeta (en glosario: el término)
+ *            text ....... descripción (en glosario: la definición)
+ *            reference .. referencia APA (admite <em>cursiva</em>)
+ *            url ........ enlace del botón (null = sin botón)
+ *            format ..... "pdf", "video" o "web" (cambia ícono y botón)
+ *    resources ............... se deja vacío en esta plantilla: []
+ *    credits, bibliography ... ventanas de Créditos y Bibliografía del dock
+ *    features ................ prender / apagar botones ("enabled": false)
+ *
+ *  Detalles en MANUAL-IMPLEMENTACION.md.
+ * ============================================================================
+ */
+
+{
+  "courseTitle": "Indicadores y evaluación del riesgo fiscal y financiero para la sostenibilidad de las empresas sociales del Estado",
+  "unitCode": "Recursos de apoyo",
+  "branding": {
+    "pageTitle": "OVA SENA • Recursos de apoyo",
+    "portadaImage": "assets/portada.jpg",
+    "logoLeft": "assets/log_foe.png",
+    "logoLeftWhite": "assets/log_foe_blanco.png",
+    "logoLeftAlt": "Formación Continua Especializada (FCE)",
+    "logoRight": "assets/Logo_acesi_color.png",
+    "logoRightWhite": "assets/Logo_acesi_blanco.png",
+    "logoRightAlt": "SENA y ACESI",
+    "popupLogoLeft": "assets/25anos.png",
+    "popupLogoLeftAlt": "Más de 25 años",
+    "popupLogoRight": "assets/Hashtag_logo.png",
+    "popupLogoRightAlt": "#FormaciónContinua",
+    "footerNotice": "Las acciones de formación ejecutadas en el marco de la convocatoria DSNFT - 0001 - FCE - 2026 son gratuitas para los trabajadores beneficiarios"
+  },
+  "recursos": {
+    "heading": "Recursos de apoyo",
+    "intro": "Consulte los anexos, el material complementario, el glosario y la bibliografía de cada unidad. Use el menú superior para filtrar por unidad y por tipo de recurso.",
+    "units": [
+      {
+        "id": "u1",
+        "label": "Unidad 1",
+        "title": "Marco normativo y fundamentos técnicos de la evaluación del riesgo fiscal y financiero en las empresas sociales del Estado"
+      },
+      {
+        "id": "u2",
+        "label": "Unidad 2",
+        "title": "Análisis e interpretación de indicadores para la evaluación del riesgo fiscal y financiero de las empresas sociales del Estado"
+      },
+      {
+        "id": "u3",
+        "label": "Unidad 3",
+        "title": "Monitoreo institucional y toma de decisiones para el fortalecimiento de la sostenibilidad de las empresas sociales del Estado"
+      },
+      {
+        "id": "ut",
+        "label": "Unidad 4",
+        "title": "Justicia ambiental y sostenibilidad para la competitividad territorial y organizacional"
+      }
+    ],
+    "types": [
+      {
+        "id": "anexos",
+        "label": "Anexos",
+        "icon": "anexos"
+      },
+      {
+        "id": "complementario",
+        "label": "Material complementario",
+        "icon": "complementario"
+      },
+      {
+        "id": "glosario",
+        "label": "Glosario",
+        "icon": "glosario"
+      },
+      {
+        "id": "bibliografia",
+        "label": "Bibliografía",
+        "icon": "bibliografia"
+      }
+    ],
+    "buttons": {
+      "pdf": "Abrir PDF",
+      "video": "Ver video",
+      "web": "Visitar sitio",
+      "reference": "Consultar recurso"
+    },
+    "items": [
+      {
+        "id": "r01",
+        "unit": "u1",
+        "type": "anexos",
+        "title": "Programa de Saneamiento Fiscal y Financiero para Empresas Sociales del Estado (ESE)",
+        "reference": "Ministerio de Hacienda y Crédito Público. (s. f.). <em>Programa de Saneamiento Fiscal y Financiero para Empresas Sociales del Estado (ESE)</em>.",
+        "url": "https://www.minhacienda.gov.co/apoyo-fiscal-territorial/monitoreo-evaluacion-gasto-social/empresas-sociales-estado/programa-saneamiento-fiscal-financiero",
+        "format": "web"
+      },
+      {
+        "id": "r02",
+        "unit": "u2",
+        "type": "anexos",
+        "title": "Resolución 948 de 2026",
+        "reference": "Ministerio de Salud y Protección Social. (2026). <em>Resolución 948 de 2026. Por la cual se reglamenta el Registro Individual de Prestación de Servicios de Salud (RIPS) como soporte de la Factura Electrónica de Venta (FEV) en salud, se derogan las Resoluciones 2275 de 2023, 558 y 1884 de 2024 y se dictan otras disposiciones</em>.",
+        "url": "https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=193275&dt=S",
+        "format": "web"
+      },
+      {
+        "id": "r03",
+        "unit": "u3",
+        "type": "anexos",
+        "title": "Manual operativo del Modelo Integrado de Planeación y Gestión (MIPG) (versión 7)",
+        "reference": "Departamento Administrativo de la Función Pública. (2026). <em>Manual operativo del Modelo Integrado de Planeación y Gestión (MIPG)</em> (versión 7).",
+        "url": "https://www.funcionpublica.gov.co/documents/20119/1885374/2026-08-28_Manual_operativo_mipg_version7.pdf/333440ff-40aa-23cd-2b2a-7cf52e8e31c7?t=1788555868441",
+        "format": "pdf"
+      },
+      {
+        "id": "r04",
+        "unit": "ut",
+        "type": "anexos",
+        "title": "El derecho humano a un medio ambiente limpio, saludable y sostenible (Resolución A/RES/76/300)",
+        "reference": "Naciones Unidas, Asamblea General. (2022). <em>El derecho humano a un medio ambiente limpio, saludable y sostenible (Resolución A/RES/76/300).</em>",
+        "url": "https://digitallibrary.un.org/record/3983329/",
+        "format": "web"
+      },
+      {
+        "id": "r05",
+        "unit": "ut",
+        "type": "anexos",
+        "title": "Establecimientos de salud resilientes al clima y ambientalmente sostenibles: Orientaciones de la OMS",
+        "reference": "Organización Mundial de la Salud. (2021). <em>Establecimientos de salud resilientes al clima y ambientalmente sostenibles: Orientaciones de la OMS.</em>",
+        "url": "https://iris.who.int/bitstream/handle/10665/338922/9789240018563-spa.pdf",
+        "format": "pdf"
+      },
+      {
+        "id": "r06",
+        "unit": "ut",
+        "type": "anexos",
+        "title": "Resolución 591 de 2024: Manual para la gestión integral de residuos generados en la atención en salud y otras actividades",
+        "reference": "Ministerio de Salud y Protección Social y Ministerio de Ambiente y Desarrollo Sostenible. (2024). <em>Resolución 591 de 2024: Manual para la gestión integral de residuos generados en la atención en salud y otras actividades.</em>",
+        "url": "https://www.minsalud.gov.co/Normatividad_Nuevo/Resoluci%C3%B3n%20No%20591%20de%202024.pdf",
+        "format": "pdf"
+      },
+      {
+        "id": "r07",
+        "unit": "u1",
+        "type": "complementario",
+        "title": "Giro directo – régimen subsidiado: IPS y proveedores",
+        "reference": "Administradora de los Recursos del Sistema General de Seguridad Social en Salud. (s. f.). <em>Giro directo – régimen subsidiado: IPS y proveedores</em>.",
+        "url": "https://www.adres.gov.co/ips-y-proveedores/giro-directo/regimen-subsidiado",
+        "format": "web"
+      },
+      {
+        "id": "r08",
+        "unit": "u2",
+        "type": "complementario",
+        "title": "Preguntas frecuentes: Resoluciones 2284 y 2335 de 2023, modificadas por las Resoluciones 1885 y 1886 de 2024",
+        "reference": "Ministerio de Salud y Protección Social. (s. f.). <em>Preguntas frecuentes: Resoluciones 2284 y 2335 de 2023, modificadas por las Resoluciones 1885 y 1886 de 2024</em>.",
+        "url": "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VP/DOA/abece-resoluciones-2284-2335-de-2023.pdf",
+        "format": "pdf"
+      },
+      {
+        "id": "r09",
+        "unit": "u3",
+        "type": "complementario",
+        "title": "Guía para la gestión estratégica y el fortalecimiento de la auditoría interna en entidades públicas (versión 5)",
+        "reference": "Departamento Administrativo de la Función Pública. (2026). <em>Guía para la gestión estratégica y el fortalecimiento de la auditoría interna en entidades públicas</em> (versión 5).",
+        "url": "https://incp.org.co/publicaciones/infoincp-publicaciones/informacion-para-empresas/2026/09/funcion-publica-actualizo-guia-de-auditoria-interna-para-entidades-publicas/",
+        "format": "web"
+      },
+      {
+        "id": "r10",
+        "unit": "ut",
+        "type": "complementario",
+        "title": "Principios marco sobre los derechos humanos y el medio ambiente",
+        "reference": "Programa de las Naciones Unidas para el Medio Ambiente. (2018). <em>Principios marco sobre los derechos humanos y el medio ambiente.</em>",
+        "url": "https://www.ohchr.org/sites/default/files/Documents/Issues/Environment/SREnvironment/FP_ReportSpanish.PDF",
+        "format": "pdf"
+      },
+      {
+        "id": "r11",
+        "unit": "ut",
+        "type": "complementario",
+        "title": "Responsible production and consumption",
+        "reference": "United Nations. (s. f.). <em>Responsible production and consumption.</em>",
+        "url": "https://www.un.org/en/node/82135",
+        "format": "web"
+      },
+      {
+        "id": "r12",
+        "unit": "ut",
+        "type": "complementario",
+        "title": "Marco operacional para el desarrollo de sistemas de salud resilientes al clima y con bajas emisiones de carbono",
+        "reference": "Organización Mundial de la Salud. (2025). <em>Marco operacional para el desarrollo de sistemas de salud resilientes al clima y con bajas emisiones de carbono.</em>",
+        "url": "https://iris.who.int/server/api/core/bitstreams/32cab2c9-5269-40fe-a5ae-6c092f2e9f91/content",
+        "format": "web"
+      },
+      {
+        "id": "r13",
+        "unit": "ut",
+        "type": "complementario",
+        "title": "WHO guidance for climate resilient and environmentally sustainable health care facilities",
+        "reference": "Organización Mundial de la Salud. (2020). <em>WHO guidance for climate resilient and environmentally sustainable health care facilities</em>.",
+        "url": "https://www.who.int/publications/i/item/9789240012226",
+        "format": "web"
+      },
+      {
+        "id": "r14",
+        "unit": "ut",
+        "type": "complementario",
+        "title": "Salud ambiental",
+        "reference": "Organización Mundial de la Salud. (s. f.). <em>Salud ambiental.</em>",
+        "url": "https://www.who.int/es/health-topics/environmental-health",
+        "format": "web"
+      },
+      {
+        "id": "r15",
+        "unit": "ut",
+        "type": "complementario",
+        "title": "Manual de evaluación de la huella hídrica: establecimiento del estándar mundial",
+        "reference": "Hoekstra, A. Y., Chapagain, A. K., Aldaya, M. M., & Mekonnen, M. M. (2011). <em>Manual de evaluación de la huella hídrica: establecimiento del estándar mundial.</em>",
+        "url": "https://www.waterfootprint.org/resources/TheWaterFootprintAssessmentManual_Spanish.pdf?utm_source",
+        "format": "pdf"
+      },
+      {
+        "id": "r16",
+        "unit": "u1",
+        "type": "glosario",
+        "title": "Adres (Administradora de los Recursos del Sistema General de Seguridad Social en Salud)",
+        "text": "entidad adscrita al Ministerio de Salud y Protección Social que administra los recursos del sistema de salud y los gira a las EPS y, mediante el giro directo, a los prestadores."
+      },
+      {
+        "id": "r17",
+        "unit": "u1",
+        "type": "glosario",
+        "title": "Giro directo",
+        "text": "mecanismo por el cual la ADRES paga directamente a las IPS y proveedores, por cuenta de las EPS, los servicios que estas les deben, sin que el dinero pase por la EPS. Reduce los tiempos de pago y mejora el flujo de recursos de las ESE."
+      },
+      {
+        "id": "r18",
+        "unit": "u2",
+        "type": "glosario",
+        "title": "RIPS (Registro Individual de Prestación de Servicios de Salud)",
+        "text": "conjunto de datos de cada atención (usuario, servicio, diagnóstico y valor) que acompaña la factura electrónica de venta en salud como soporte obligatorio y se valida ante el Ministerio de Salud y Protección Social."
+      },
+      {
+        "id": "r19",
+        "unit": "u2",
+        "type": "glosario",
+        "title": "Flujo de caja",
+        "text": "registro de las entradas y salidas de dinero de la ESE en un período. Muestra si el dinero que entra alcanza para pagar a tiempo las obligaciones, más allá del resultado contable."
+      },
+      {
+        "id": "r20",
+        "unit": "u3",
+        "type": "glosario",
+        "title": "Riesgo inherente",
+        "text": "nivel de riesgo que tiene un proceso antes de aplicar los controles, según su probabilidad de ocurrencia y su impacto."
+      },
+      {
+        "id": "r21",
+        "unit": "u3",
+        "type": "glosario",
+        "title": "Riesgo residual",
+        "text": "nivel de riesgo que permanece después de aplicar los controles. Es el que la entidad debe aceptar, vigilar o seguir tratando."
+      },
+      {
+        "id": "r22",
+        "unit": "ut",
+        "type": "glosario",
+        "title": "Corresponsabilidad ambiental",
+        "text": "compromiso compartido entre las instituciones, los trabajadores y las comunidades para prevenir impactos ambientales y proteger los recursos naturales, reconociendo las funciones, capacidades y responsabilidades de cada actor (United Nations, s. f.)."
+      },
+      {
+        "id": "r23",
+        "unit": "ut",
+        "type": "glosario",
+        "title": "Producción y consumo responsable",
+        "text": "hacer más y mejor con menos, reduciendo el uso de recursos y la contaminación durante todo el ciclo de vida del producto, con la cooperación de todos los actores, desde el productor hasta el consumidor (United Nations, s. f.)."
+      },
+      {
+        "id": "r24",
+        "unit": "ut",
+        "type": "glosario",
+        "title": "Ecoeficiencia institucional",
+        "text": "capacidad de una organización para optimizar el uso del agua, la energía y los insumos, reducir desperdicios y minimizar impactos ambientales, manteniendo la calidad, seguridad y continuidad de los servicios que presta (OMS, 2020)."
+      },
+      {
+        "id": "r25",
+        "unit": "ut",
+        "type": "glosario",
+        "title": "Centros de salud resilientes",
+        "text": "establecimientos sanitarios capaces de adaptarse al clima y ser ambientalmente sostenibles, contribuyendo a una atención de alta calidad, accesible y asequible, como parte de la cobertura sanitaria universal (OMS, 2020)."
+      },
+      {
+        "id": "r26",
+        "unit": "ut",
+        "type": "glosario",
+        "title": "Huella hídrica",
+        "text": "indicador que permite estimar la cantidad de agua utilizada, directa e indirectamente, para desarrollar una actividad, producir un bien o prestar un servicio (Hoekstra et al., 2011)."
+      },
+      {
+        "id": "r27",
+        "unit": "ut",
+        "type": "glosario",
+        "title": "Huella hídrica azul",
+        "text": "indicador del uso consuntivo de agua dulce superficial o subterránea, que se produce cuando el agua se evapora, se incorpora al producto, no regresa a la misma zona de captación o no regresa en el mismo periodo de tiempo (Hoekstra et al., 2011)."
+      },
+      {
+        "id": "r28",
+        "unit": "u1",
+        "type": "bibliografia",
+        "reference": "Presidencia de la República. (2026). <em>Decreto 930 de 2026</em> [Modificación del Decreto 780 de 2016 en relación con el giro directo de los recursos de la Unidad de Pago por Capitación y de presupuestos máximos].",
+        "url": "https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=193859"
+      },
+      {
+        "id": "r29",
+        "unit": "u2",
+        "type": "bibliografia",
+        "reference": "Acosta, J. (2026, 23 de enero). Persiste el grave deterioro del flujo de recursos hacia la red pública hospitalaria en Colombia. <em>Portafolio</em>.",
+        "url": "https://www.portafolio.co/economia/gobierno/persiste-el-grave-deterioro-del-flujo-de-recursos-hacia-la-red-publica-hospitalaria-en-colombia-486847"
+      },
+      {
+        "id": "r30",
+        "unit": "u3",
+        "type": "bibliografia",
+        "reference": "Departamento Administrativo de la Función Pública. (2018). <em>Guía para la construcción y análisis de indicadores de gestión</em> (versión 4).",
+        "url": "https://www1.funcionpublica.gov.co/web/eva/biblioteca-virtual/-/document_library/bGsp2IjUBdeu/view_file/34220860"
+      },
+      {
+        "id": "r31",
+        "unit": "ut",
+        "type": "bibliografia",
+        "reference": "Ceballo, M. (2025). <em>¿Qué es la gestión ambiental y por qué estudiarla?</em>",
+        "url": "https://www.areandina.edu.co/blogs/que-es-la-gestion-ambiental-y-por-que-estudiarla"
+      },
+      {
+        "id": "r32",
+        "unit": "ut",
+        "type": "bibliografia",
+        "reference": "Congreso de la República de Colombia. (1993). <em>Ley 99 de 1993. Por la cual se crea el Ministerio del Ambiente, se reordena el Sector Público encargado de la gestión y la conservación del medio ambiente y los recursos naturales renovables, se organiza el Sistema Nacional Ambiental, SINA, y se dictan otras disposiciones.</em>",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=297"
+      },
+      {
+        "id": "r33",
+        "unit": "ut",
+        "type": "bibliografia",
+        "reference": "Corte Constitucional. (2016). <em>Sentencia T-622-16.</em>",
+        "url": "https://atrato.minambiente.gov.co/index.php/la-sentencia/"
+      },
+      {
+        "id": "r34",
+        "unit": "ut",
+        "type": "bibliografia",
+        "reference": "ECOR. (2024, noviembre 22). <em>¿Qué son insumos hospitalarios?</em> ECOR.",
+        "url": "https://ecor.com.co/que-son-insumos-hospitalarios/"
+      },
+      {
+        "id": "r35",
+        "unit": "ut",
+        "type": "bibliografia",
+        "reference": "Mesa Cuadrado, G. (2018). <em>Una idea de justicia ambiental</em>.",
+        "url": "https://portaldelibros.unal.edu.co/gpd-una-idea-de-justicia-ambiental-elementos-de-conceptualizaciy-n-y-fundamentaciy-n-9789587834147-667e350e221aa.html"
+      },
+      {
+        "id": "r36",
+        "unit": "ut",
+        "type": "bibliografia",
+        "reference": "Ministerio de Ambiente y Desarrollo Sostenible. (s.f). <em>Salud ambiental.</em>",
+        "url": "https://www.minambiente.gov.co/asuntos-ambientales-sectorial-y-urbana/salud-ambiental/"
+      },
+      {
+        "id": "r37",
+        "unit": "ut",
+        "type": "bibliografia",
+        "reference": "Ministerio de Ambiente y Desarrollo Sostenible. (2019). <em>Resolución 2184 de 2019. \"Por la cual se modifica la resolución 668 de 2016 sobre uso racional de bolsas plásticas y se adoptan otras disposiciones\"</em>.",
+        "url": "https://www.minambiente.gov.co/wp-content/uploads/2021/08/resolucion-2184-de-2019.pdf"
+      },
+      {
+        "id": "r38",
+        "unit": "ut",
+        "type": "bibliografia",
+        "reference": "Ministerio de Ambiente y Desarrollo Sostenible. (2020). <em>Resolución 1344 de 2020. Por la cual se adiciona un parágrafo al artículo 4 de la Resolución 2184 de 2019 y se dictan otras disposiciones.</em>",
+        "url": "https://www.minambiente.gov.co/wp-content/uploads/2021/08/resolucion-1344-de-2020.pdf"
+      },
+      {
+        "id": "r39",
+        "unit": "ut",
+        "type": "bibliografia",
+        "reference": "Ministerio de Ambiente y Desarrollo Sostenible. (2026). <em>Política Nacional del Agua 2026-2050.</em>",
+        "url": "https://www.minambiente.gov.co/consulta/politica-nacional-del-agua-2026-2050/"
+      },
+      {
+        "id": "r40",
+        "unit": "ut",
+        "type": "bibliografia",
+        "reference": "Ministerio de Salud y Protección Social & Ministerio de Ambiente y Desarrollo Sostenible. (2024). <em>Resolución 591 de 2024. Por la cual se adopta el Manual para la Gestión Integral de Residuos Generados en la Atención en Salud y Otras Actividades.</em>",
+        "url": "https://www.minsalud.gov.co/Normatividad_Nuevo/Resoluci%C3%B3n%20No%20591%20de%202024.pdf"
+      },
+      {
+        "id": "r41",
+        "unit": "ut",
+        "type": "bibliografia",
+        "reference": "Ministerio de Salud. Sistema de Gestión Ambiental (2025). <em>Programa de ahorro y uso eficiente del agua.</em>",
+        "url": "https://minsalud.gov.co/Ministerio/Institucional/Procesos%20y%20procedimientos/ABIS04.pdf"
+      },
+      {
+        "id": "r42",
+        "unit": "ut",
+        "type": "bibliografia",
+        "reference": "Ministerio de Sanidad. (s. f.). <em>Huella de carbono sanitaria.</em>",
+        "url": "https://www.sanidad.gob.es/areas/sanidadAmbiental/riesgosAmbientales/saludCC/huelladeCarbono/home.htm"
+      },
+      {
+        "id": "r43",
+        "unit": "ut",
+        "type": "bibliografia",
+        "reference": "United Nations (s. f.). <em>Sustainability</em>.",
+        "url": "https://www.un.org/en/academic-impact/sustainability"
+      },
+      {
+        "id": "r44",
+        "unit": "ut",
+        "type": "bibliografia",
+        "reference": "Organización Mundial de la Salud. (2023). <em>La electricidad en los establecimientos de salud.</em>",
+        "url": "https://www.who.int/es/news-room/fact-sheets/detail/electricity-in-health-care-facilities"
+      },
+      {
+        "id": "r45",
+        "unit": "ut",
+        "type": "bibliografia",
+        "reference": "Presidencia de la República de Colombia. (2016). <em>Decreto 780 de 2016. Por medio del cual se expide el Decreto Único Reglamentario del Sector Salud y Protección Social.</em>",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=77813"
+      },
+      {
+        "id": "r46",
+        "unit": "ut",
+        "type": "bibliografia",
+        "reference": "McGrath, T. (2025). <em>Environmental Sustainability in Nursing | Greener Healthcare. Nevada State University.</em>",
+        "url": "https://nevadastate.edu/son/rn-bsn/environmental-sustainability-in-nursing-bsns-role-in-greener-healthcare/"
+      },
+      {
+        "id": "r47",
+        "unit": "ut",
+        "type": "bibliografia",
+        "reference": "Pixeon. (2025). <em>Sostenibilidad en salud: 6 formas de aplicarla en la práctica.</em>",
+        "url": "https://www.pixeon.com/es/blog/sostenibilidad-en-salud-6-formas-de-aplicarla/"
+      },
+      {
+        "id": "r48",
+        "unit": "ut",
+        "type": "bibliografia",
+        "reference": "Presidencia de la República de Colombia. (2015). <em>Decreto 1076 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector Ambiente y Desarrollo Sostenible.</em>",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=78153"
+      },
+      {
+        "id": "r49",
+        "unit": "ut",
+        "type": "bibliografia",
+        "reference": "Salud sin Daño. (2019). <em>Huella climática del sector salud. Cómo contribuye el sector salud a la crisis climática global: Oportunidades para la acción</em>.",
+        "url": "https://lac.saludsindanio.org/cambio-climatico-y-salud/huella-climatica-del-sector-salud"
+      },
+      {
+        "id": "r50",
+        "unit": "ut",
+        "type": "bibliografia",
+        "reference": "Salud sin Daño. (2026). <em>Sostenibilidad en el sector salud.</em>",
+        "url": "https://lac.saludsindanio.org/sostenibilidad"
+      }
+    ]
+  },
+  "resources": [],
+  "credits": {
+    "title": "Créditos",
+    "iconSrc": "assets/Creditos.png",
+    "supportImageSrc": "assets/credits-team-support.jpg",
+    "supportImageAlt": "Equipo de desarrollo y diseño pedagógico",
+    "heading": "Grupo de trabajo",
+    "institution": {
+      "entities": [
+        "Ministerio del Trabajo y Seguridad Social",
+        "Servicio Nacional de Aprendizaje (SENA)",
+        "Asociación Colombiana de Empresas Sociales del Estado y Hospitales Públicos (ACESI)"
+      ],
+      "details": [
+        {
+          "role": "Primera edición:",
+          "names": "octubre/2026"
+        }
+      ]
+    },
+    "coordination": "Coordinación general: Fundación Visión Salud",
+    "subordination": "",
+    "sections": [
+      {
+        "role": "Equipo Técnico Fundación Visión Salud:",
+        "names": "Paola Rueda Casallas"
+      },
+      {
+        "role": "Asesoría y diseño pedagógico:",
+        "names": "Alba Lucía Núñez G. - Samir Balanta Perea"
+      },
+      {
+        "role": "Adecuación y corrección de estilo:",
+        "names": "José Gabriel Ortiz Abella"
+      },
+      {
+        "role": "Ilustraciones y diseño digital:",
+        "names": "Liam Pamela Hermida García - William Gonzáles"
+      },
+      {
+        "role": "Diagramación:",
+        "names": "John Carlos Jiménez Díaz"
+      },
+      {
+        "role": "Realización audiovisual:",
+        "names": "Oscar Javier Rojas Pulido"
+      },
+      {
+        "role": "Director de virtualización y plataforma educativa:",
+        "names": "Julián Andrés Mora Gómez"
+      },
+      {
+        "role": "Derechos de autor y licencias:",
+        "names": "SENA"
+      }
+    ],
+    "legalNotice": "Las acciones de formación ejecutadas en el marco de la convocatoria DSNFT - 0001 - FCE - 2026 son gratuitas para los trabajadores beneficiarios"
+  },
+  "bibliography": {
+    "title": "Bibliografía",
+    "iconSrc": "assets/bibliografia.png",
+    "supportImageSrc": "assets/library-support.jpg",
+    "supportImageAlt": "Biblioteca académica y centro de documentación",
+    "heading": "Bibliografía",
+    "description": "Fuentes documentales, lecturas y recursos recomendados para la fundamentación conceptual del curso:",
+    "linkText": "Consultar recurso fuente",
+    "entries": [
+      {
+        "text": "Arboleda Posada, G. I., García Arango, D. A. & Henao Villa, C. F. (2019). <em>Empresas sociales del Estado en Colombia: análisis exploratorio de indicadores económicos para los años 2010-2015. Administración & Desarrollo, 49(1)</em>.",
+        "url": "https://doi.org/10.22431/25005227.vol49n1.2"
+      },
+      {
+        "text": "Betancourt, O., Mertens, F., & Parra, M. (2016). <em>Enfoques ecosistémicos en salud y ambiente.</em> Ediciones Abya-Yala. libro-de-la-copeh-lac-parte-1.pdf"
+      },
+      {
+        "text": "Ceballo, M. (2025). <em>¿Qué es la Gestión Ambiental y por qué estudiarla?</em>",
+        "url": "https://www.areandina.edu.co/blogs/en-infografia-que-es-la-gestion-ambiental"
+      },
+      {
+        "text": "Congreso de la República de Colombia. (1993). <em>Ley 99 de 1993. Por la cual se crea el Ministerio del Ambiente, se reordena el Sector Público encargado de la gestión y la conservación del medio ambiente y los recursos naturales renovables, se organiza el Sistema Nacional Ambiental, SINA, y se dictan otras disposiciones.</em>",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=297"
+      },
+      {
+        "text": "Congreso de la República de Colombia. (1993). <em>Ley 100 de 1993. Por la cual se crea el sistema de seguridad social integral y se dictan otras disposiciones</em>.",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=5248"
+      },
+      {
+        "text": "Congreso de la República de Colombia. (2007). <em>Ley 1122 de 2007. Por la cual se hacen algunas modificaciones en el Sistema General de Seguridad Social en Salud y se dictan otras disposiciones</em>.",
+        "url": "https://normativa.colpensiones.gov.co/compilacion/docs/ley_1122_2007.htm"
+      },
+      {
+        "text": "Congreso de la República de Colombia. (2011a). <em>Acto Legislativo 03 de 2011. Por el cual se establece el principio de la sostenibilidad fiscal</em>.",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=43214"
+      },
+      {
+        "text": "Congreso de la República de Colombia. (2011b). <em>Ley 1438 de 2011. Por medio de la cual se reforma el Sistema General de Seguridad Social en Salud y se dictan otras disposiciones</em>.",
+        "url": "https://relatoria.colombiacompra.gov.co/normativa/ley-1438-de-2011/"
+      },
+      {
+        "text": "Congreso de la República de Colombia. (2013). <em>Ley 1608 de 2013. Por medio de la cual se adoptan medidas para mejorar la liquidez y el uso de algunos recursos del Sector Salud y se dictan otras disposiciones</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/ley_1608_2013.htm"
+      },
+      {
+        "text": "Congreso de la República de Colombia. (2015). <em>Ley 1751 de 2015. Por medio de la cual se regula el derecho fundamental a la salud y se dictan otras disposiciones</em>.",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=60733"
+      },
+      {
+        "text": "Congreso de la República de Colombia. (2019a). <em>Ley 1955 de 2019. Por el cual se expide el Plan Nacional de Desarrollo 2018-2022 «Pacto por Colombia, Pacto por la Equidad»</em>.",
+        "url": "https://funcionpublica.gov.co/eva/gestornormativo/norma.php?i=93970"
+      },
+      {
+        "text": "Congreso de la República de Colombia. (2019b). <em>Ley 1966 de 2019. Por medio de la cual se adoptan medidas para la gestión y transparencia en el Sistema de Seguridad Social en Salud y se dictan otras disposiciones</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/ley_1966_2019.htm"
+      },
+      {
+        "text": "Constitución Política de Colombia [Const.]. (1991). <em>Constitución Política de Colombia</em>. Gaceta Constitucional No. 116 de 20 de julio de 1991.",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4125"
+      },
+      {
+        "text": "Contaduría General de la Nación. (2014). <em>Resolución 414 de 2014. Por la cual se incorpora, en el Régimen de Contabilidad Pública, el marco normativo aplicable para algunas empresas sujetas a su ámbito</em>.",
+        "url": "https://normativa.colpensiones.gov.co/colpens/docs/resolucion_contaduria_0414_2014.htm"
+      },
+      {
+        "text": "Corte Constitucional. (2016). <em>Sentencia T-622-16.</em>",
+        "url": "https://atrato.minambiente.gov.co/index.php/la-sentencia/"
+      },
+      {
+        "text": "Corte Constitucional de Colombia. (2012). <em>Sentencia C-288 de 2012</em> (M. P. Luis Ernesto Vargas Silva).",
+        "url": "https://www.ambitojuridico.com/sites/default/files/BancoMedios/Archivos/c-0288-12.doc"
+      },
+      {
+        "text": "Departamento Administrativo de la Función Pública. (2022). <em>Guía para la administración del riesgo y el diseño de controles en entidades públicas</em> (versión 6).",
+        "url": "https://www1.funcionpublica.gov.co/documents/28587410/34299967/Guia_administracion_riesgos_capitulo_riesgo_fiscal.pdf"
+      },
+      {
+        "text": "Departamento Administrativo Nacional de Estadística. (s. f.). <em>Densidad de la población en Colombia</em>. Atlas estadístico, Tomo I Demográfico.",
+        "url": "https://geoportal.dane.gov.co/servicios/atlas-estadistico/src/Tomo_I_Demografico/2.2.3.-densidad-de-la-poblaci%C3%B3n-en-colombia.html"
+      },
+      {
+        "text": "ECOR. (2024, noviembre 22). <em>¿Qué son insumos hospitalarios?</em> ECOR.",
+        "url": "https://ecor.com.co/que-son-insumos-hospitalarios/"
+      },
+      {
+        "text": "Guzmán-Finol, K. & Ayala-García, J. (2024). <em>Cartera hospitalaria y diferencias regionales en la prestación de los servicios de salud en Colombia</em> (Documentos de Trabajo sobre Economía Regional y Urbana No. 328). Banco de la República.",
+        "url": "https://repositorio.banrep.gov.co/bitstreams/5c35c62f-2418-468a-9c93-db8fb17394f3/download"
+      },
+      {
+        "text": "McGrath, T. (2025). <em>Environmental Sustainability in Nursing | Greener Healthcare. Nevada State University.</em>",
+        "url": "https://nevadastate.edu/son/rn-bsn/environmental-sustainability-in-nursing-bsns-role-in-greener-healthcare/"
+      },
+      {
+        "text": "Mesa Cuadrado, G. (2018). <em>Una idea de justicia ambienta</em>l.",
+        "url": "https://portaldelibros.unal.edu.co/gpd-una-idea-de-justicia-ambiental-elementos-de-conceptualizaciy-n-y-fundamentaciy-n-9789587834147-667e350e221aa.html"
+      },
+      {
+        "text": "Ministerio de Ambiente y Desarrollo Sostenible. (2019). <em>Resolución 2184 de 2019. \"Por la cual se modifica la resolución 668 de 2016 sobre uso racional de bolsas plásticas y se adoptan otras disposiciones\"</em>.",
+        "url": "https://www.minambiente.gov.co/wp-content/uploads/2021/08/resolucion-2184-de-2019.pdf"
+      },
+      {
+        "text": "Ministerio de Ambiente y Desarrollo Sostenible. (2020). <em>Resolución 1344 de 2020. Por la cual se adiciona un parágrafo al artículo 4 de la Resolución 2184 de 2019 y se dictan otras disposiciones.</em>",
+        "url": "https://www.minambiente.gov.co/wp-content/uploads/2021/08/resolucion-1344-de-2020.pdf"
+      },
+      {
+        "text": "Ministerio de Ambiente y Desarrollo Sostenible. (2026). <em>Política Nacional del Agua 2026–2050.</em>",
+        "url": "https://www.minambiente.gov.co/consulta/politica-nacional-del-agua-2026-2050/"
+      },
+      {
+        "text": "Ministerio de Ambiente y Desarrollo Sostenible. (s. f.). <em>Salud Ambiental.</em>",
+        "url": "https://www.minambiente.gov.co/asuntos-ambientales-sectorial-y-urbana/salud-ambiental/"
+      },
+      {
+        "text": "Ministerio de Hacienda & Crédito Público. (2019). <em>Resolución 3832 de 2019. Por la cual se expide el Catálogo de Clasificación Presupuestal para Entidades Territoriales y sus Descentralizadas</em>.",
+        "url": "https://www.ambitojuridico.com/sites/default/files/BancoMedios/Archivos/res-3832-19%28minhacienda%29.pdf"
+      },
+      {
+        "text": "Ministerio de Hacienda y Crédito Público. (s. f.). <em>Monitoreo y seguimiento de las Empresas Sociales del Estado (ESE)</em>. Dirección General de Apoyo Fiscal.",
+        "url": "https://www.minhacienda.gov.co/apoyo-fiscal-territorial/monitoreo-evaluacion-gasto-social/empresas-sociales-estado/monitoreo"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social & Ministerio de Ambiente y Desarrollo Sostenible. (2024). <em>Resolución 591 de 2024. Por la cual se adopta el Manual para la Gestión Integral de Residuos Generados en la Atención en Salud y Otras Actividades.</em>",
+        "url": "https://www.minsalud.gov.co/Normatividad_Nuevo/Resoluci%C3%B3n%20No%20591%20de%202024.pdf"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2012a). <em>Resolución 2509 de 2012. Por medio de la cual se define la metodología para la categorización del riesgo de las Empresas Sociales del Estado del nivel territorial y se efectúa la categorización del riesgo para la vigencia 2012</em>.",
+        "url": "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/Resolucion-2509-de-2012.PDF"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2012b). <em>Resolución 3467 de 2012. Por la cual se adopta el Manual de Condiciones para el diseño y adopción de los Programas de Saneamiento Fiscal y Financiero de las Empresas Sociales del Estado del nivel territorial</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/resolucion_minsaludps_3467_2012.htm"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2012c). <em>Resolución 710 de 2012. Por medio de la cual se adoptan las condiciones y metodología para la elaboración y presentación del plan de gestión por parte de los gerentes o directores de las Empresas Sociales del Estado del orden territorial y su evaluación por parte de la Junta Directiva</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/resolucion_minsaludps_0710_2012.htm"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2013a). <em>Resolución 1877 de 2013. Por medio de la cual se efectúa la categorización del riesgo de las Empresas Sociales del Estado del nivel territorial para la vigencia 2013</em>.",
+        "url": "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-1877-de-2013.pdf"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2013b). <em>Resolución 743 de 2013. Por la cual se modifica la Resolución 710 de 2012</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/resolucion_minsaludps_0743_2013.htm"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2014). <em>Resolución 2090 de 2014. Por la cual se efectúa la categorización del riesgo de las Empresas Sociales del Estado del nivel territorial para la vigencia 2014 y se dictan otras disposiciones</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/resolucion_minsaludps_2090_2014.htm"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2015). <em>Resolución 1893 de 2015. Por la cual se efectúa la categorización del riesgo de las Empresas Sociales del Estado del nivel territorial para la vigencia 2015</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/resolucion_minsaludps_1893_2015.htm"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2016). <em>Resolución 2184 de 2016. Por la cual se efectúa la categorización del riesgo de las Empresas Sociales del Estado del nivel territorial para la vigencia 2016 y se dictan otras disposiciones</em>.",
+        "url": "https://www.minsalud.gov.co/Normatividad_Nuevo/Resoluci%C3%B3n%202184%20de%202016.pdf"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2017). <em>Resolución 1755 de 2017. Por medio de la cual se efectúa la categorización del riesgo de las Empresas Sociales del Estado del nivel territorial para la vigencia 2017 y se dictan otras disposiciones</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/resolucion_minsaludps_1755_2017.htm"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2018a). <em>Resolución 2249 de 2018. Por la cual se efectúa la categorización del riesgo de las Empresas Sociales del Estado del nivel territorial para la vigencia 2018 y se dictan otras disposiciones</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/resolucion_minsaludps_2249_2018.htm"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2018b). <em>Resolución 408 de 2018. Por la cual se modifica la Resolución 710 de 2012, modificada por la Resolución 743 de 2013</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/resolucion_minsaludps_0408_2018.htm"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2019). <em>Resolución 1342 de 2019. Por la cual se efectúa la categorización del riesgo de las Empresas Sociales del Estado del nivel territorial para la vigencia 2019</em>.",
+        "url": "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-1342-de-2019.pdf"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2020). <em>Resolución 856 de 2020. Por medio de la cual se suspenden términos administrativos y jurisdiccionales en sede administrativa como consecuencia de la emergencia sanitaria por el COVID-19</em>.",
+        "url": "https://cancilleria.gov.co/sites/default/files/Normograma/docs/resolucion_minsaludps_0856_2020.htm"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2023a). <em>Resolución 2284 de 2023. Por la cual se definen los soportes de cobro y se adopta el Manual Único de Devoluciones, Glosas y Respuestas</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/resolucion_minsaludps_2284_2023.htm"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2023b). <em>Resolución 851 de 2023. Por la cual se efectúa la categorización del riesgo de las Empresas Sociales del Estado del nivel territorial para la vigencia 2023</em>.",
+        "url": "https://www.minsalud.gov.co/Normatividad_Nuevo/Resoluci%C3%B3n%20No.%20851%20de%202023.pdf"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2024a). <em>Resolución 1885 de 2024. Por la cual se modifican el artículo 12 y el Anexo Técnico 1 de la Resolución 2284 de 2023</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/resolucion_minsaludps_1885_2024.htm"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2024b). <em>Resolución 980 de 2024. Por la cual se efectúa la categorización del riesgo de las Empresas Sociales del Estado del nivel territorial para la vigencia 2024 y se dictan otras disposiciones</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/resolucion_minsaludps_0980_2024.htm"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2025). <em>Resolución 1122 de 2025. Por la cual se efectúa la categorización del riesgo de las Empresas Sociales del Estado del nivel territorial para la vigencia 2025 y se dictan otras disposiciones</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/resolucion_minsaludps_1122_2025.htm"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2026). <em>Resolución 1020 de 2026. Por la cual se efectúa la categorización del riesgo de las Empresas Sociales del Estado del nivel territorial para la vigencia 2026 y se dictan otras disposiciones</em>.",
+        "url": "https://sidn.ramajudicial.gov.co/SIDN/NORMATIVA/TEXTOS_COMPLETOS/8_RESOLUCIONES/RESOLUCIONES%202026/MSPS%20Resolucion%20001020%20de%202026.pdf"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social, Sistema de Gestión Ambiental. (2025). <em>Programa de ahorro y uso eficiente del agua.</em>",
+        "url": "https://minsalud.gov.co/Ministerio/Institucional/Procesos%20y%20procedimientos/ABIS04.pdf"
+      },
+      {
+        "text": "Ministerio de Sanidad. (s. f.). <em>Huella de carbono sanitaria.</em>",
+        "url": "https://www.sanidad.gob.es/areas/sanidadAmbiental/riesgosAmbientales/saludCC/huelladeCarbono/home.htm"
+      },
+      {
+        "text": "Organización Mundial de la Salud. (2023). <em>La electricidad en los establecimientos de salud.</em>",
+        "url": "https://www.who.int/es/news-room/fact-sheets/detail/electricity-in-health-care-facilities"
+      },
+      {
+        "text": "Pixeon. (2025). <em>Sostenibilidad en salud: 6 formas de aplicarla en la práctica.</em>",
+        "url": "https://www.pixeon.com/es/blog/sostenibilidad-en-salud-6-formas-de-aplicarla/"
+      },
+      {
+        "text": "Presidencia de la República de Colombia. (2015). <em>Decreto 1076 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector Ambiente y Desarrollo Sostenible.</em>",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=78153"
+      },
+      {
+        "text": "Presidencia de la República de Colombia. (2016). <em>Decreto 780 de 2016. Por medio del cual se expide el Decreto Único Reglamentario del Sector Salud y Protección Social.</em>",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=77813"
+      },
+      {
+        "text": "Presidencia de la República. (1994). <em>Decreto 1876 de 1994. Por el cual se reglamentan los artículos 96, 97 y 98 del Decreto Ley 1298 de 1994 en lo relacionado con las Empresas Sociales del Estado</em>.",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=3356"
+      },
+      {
+        "text": "Presidencia de la República. (1996). <em>Decreto 111 de 1996. Por el cual se compilan la Ley 38 de 1989, la Ley 179 de 1994 y la Ley 225 de 1995 que conforman el Estatuto Orgánico del Presupuesto</em>.",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=5306"
+      },
+      {
+        "text": "Presidencia de la República. (2004). <em>Decreto 2193 de 2004. Por el cual se reglamentan parcialmente los artículos 42 de la Ley 715 de 2001 y 17 de la Ley 812 de 2003</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/decreto_2193_2004.htm"
+      },
+      {
+        "text": "Presidencia de la República. (2015a). <em>Decreto 1068 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector Hacienda y Crédito Público</em>.",
+        "url": "https://normativa.colpensiones.gov.co/colpens/docs/decreto_1068_2015.htm"
+      },
+      {
+        "text": "Presidencia de la República. (2015b). <em>Decreto 1083 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector de Función Pública</em>.",
+        "url": "https://www.funcionpublica.gov.co/documents/34645357/34703621/Decreto_1083_de_2015.pdf/b0a30401-2cbc-3bc3-e48d-bdcbb1dbc3f3"
+      },
+      {
+        "text": "Presidencia de la República. (2017a). <em>Decreto 1499 de 2017. Por medio del cual se modifica el Decreto 1083 de 2015, Decreto Único Reglamentario del Sector Función Pública, en lo relacionado con el Sistema de Gestión establecido en el artículo 133 de la Ley 1753 de 2015</em>.",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=83433"
+      },
+      {
+        "text": "Presidencia de la República. (2017b). <em>Decreto 648 de 2017. Por el cual se modifica y adiciona el Decreto 1083 de 2015, Reglamentario Único del Sector de la Función Pública</em>.",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80915"
+      },
+      {
+        "text": "Presidencia de la República. (2020). <em>Decreto 58 de 2020. Por el cual se sustituye el Título 5 de la Parte 6 del Libro 2 del Decreto 1068 de 2015, Único Reglamentario del Sector Hacienda y Crédito Público</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/decreto_0058_2020.htm"
+      },
+      {
+        "text": "Presidencia de la República. (2024). <em>Decreto 460 de 2024. Por el cual se modifica el Decreto 1068 de 2015 en lo relacionado con la administración de los recursos de los Programas de Saneamiento Fiscal y Financiero de las Empresas Sociales del Estado</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/decreto_0460_2024.htm"
+      },
+      {
+        "text": "Salud sin Daño. (2026). <em>Sostenibilidad en el sector salud.</em>",
+        "url": "https://lac.saludsindanio.org/sostenibilidad"
+      },
+      {
+        "text": "Salud sin Daño. (2019). <em>Huella climática del sector salud. Cómo contribuye el sector salud a la crisis climática global: Oportunidades para la acción</em>.",
+        "url": "https://lac.saludsindanio.org/cambio-climatico-y-salud/huella-climatica-del-sector-salud"
+      },
+      {
+        "text": "Superintendencia Nacional de Salud. (2023). <em>Concepto 1439371 de 2023</em> [Composición de las juntas directivas de las Empresas Sociales del Estado].",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/concepto_supersalud_1439371_2023.htm"
+      },
+      {
+        "text": "United Nations. (s. f.). Sustainability.",
+        "url": "https://www.un.org/en/academic-impact/sustainability"
+      }
+    ]
+  },
+  "features": {
+    "creditsPopup": {
+      "enabled": true,
+      "button": "btnDockCredits"
+    },
+    "bibliographyPopup": {
+      "enabled": false,
+      "button": "btnDockBibliography",
+      "showLinks": true
+    },
+    "portadaScroll": {
+      "enabled": true,
+      "button": "btnPortadaScroll"
+    },
+    "enterCarousel": {
+      "enabled": true,
+      "button": "btnEnterCarrusel"
+    },
+    "popupClose": {
+      "enabled": true,
+      "button": "btnAmieClose"
+    }
+  }
+}
