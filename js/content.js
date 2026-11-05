@@ -8,10 +8,10 @@
  *  edita  content.json  y corré el generador.
  * ===========================================================================
  *
- *  contentSha256: ab638ac4
- *  generatedAt:   2026-10-30T01:17:30.047Z
+ *  contentSha256: a3ba37e6
+ *  generatedAt:   2026-11-05T17:02:33.074Z
  */
-window.OVA_CONTENT_META = { contentSha256: "ab638ac4", generatedAt: "2026-10-30T01:17:30.054Z" };
+window.OVA_CONTENT_META = { contentSha256: "a3ba37e6", generatedAt: "2026-11-05T17:02:33.076Z" };
 window.OVA_CONTENT = {
   "courseTitle": "Indicadores y evaluación del riesgo fiscal y financiero para la sostenibilidad de las empresas sociales del Estado",
   "unitCode": "Reto central",
@@ -106,7 +106,7 @@ window.OVA_CONTENT = {
           "blocks": [
             {
               "type": "paragraph",
-              "text": "<strong>Contexto general (se presenta al inicio del curso)</strong>"
+              "text": "<strong>Contexto general</strong>"
             },
             {
               "type": "paragraph",
